@@ -1,26 +1,42 @@
 [
   {
-    "name": "Real-time Payment Dispatch",
+    "name": "Payment Processing & Energy Accounting (Gov Power Sector)",
     "stack": [
       "Java",
       "Spring Boot",
       "Oracle",
+      "PL/SQL",
+      "REST",
       "Thymeleaf"
     ],
-    "desc": "Bank API integration with AES‑GCM + RSA, real-time status, and logs.",
-    "code": "https://github.com/you/payment-dispatch",
+    "desc": "Enterprise modules for metering, energy accounting, and payments across 7+ states; secure banking API integration; Ehcache for 50%+ DB load reduction; 99.9% uptime focus.",
+    "code": "",
     "demo": ""
   },
   {
-    "name": "Clinic Appointment System",
+    "name": "Dental Clinic Management System",
     "stack": [
       "Spring Boot",
       "Thymeleaf",
-      "MySQL",
-      "Spring Security"
+      "Oracle DB",
+      "Email"
     ],
-    "desc": "Role-based dashboards, slots, email confirmations, treatment billing.",
-    "code": "https://github.com/you/clinic-app",
+    "desc": "Multi-role clinic app with automated emails, Google Maps embed, WhatsApp widget; appointments, dashboards, and treatment workflows.",
+    "code": "",
+    "demo": ""
+  },
+  {
+    "name": "Healthcare Insurance Domain \u2014 Java Services (Infosys)",
+    "stack": [
+      "Java",
+      "REST/SOAP",
+      "Azure",
+      "WAS",
+      "RHEL",
+      "DB2"
+    ],
+    "desc": "Owned 10 apps, 26 services, 7 batch jobs; eliminated 100% of logged tickets via targeted changes; scaled services to 2\u20133\u00d7 load.",
+    "code": "",
     "demo": ""
   }
 ]

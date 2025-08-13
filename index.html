@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Souveek Kurmi — Portfolio</title>
-  <meta name="description" content="Java & Spring Boot backend developer — projects, experience, and contact." />
+  <meta name="description" content="Java Developer with 5+ years' experience in scalable backend systems (Java, Spring Boot, SQL).">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -12,38 +12,47 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="font-[Inter] bg-white text-slate-900">
-  <header class="sticky top-0 z-20 bg-white/80 backdrop-blur border-b">
+  <!-- Nav -->
+  <header class="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
       <a href="#home" class="font-extrabold text-lg">Souveek<span class="text-blue-600">.</span></a>
       <nav class="hidden sm:flex gap-6 text-sm">
         <a href="#projects" class="hover:text-blue-600">Projects</a>
-        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#experience" class="hover:text-blue-600">Experience</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="#awards" class="hover:text-blue-600">Awards</a>
         <a href="#contact" class="hover:text-blue-600">Contact</a>
       </nav>
+      <div class="flex items-center gap-3">
+        <a href="assets/Souveek_Kurmi_Resume.pdf" target="_blank" class="hidden sm:inline-flex items-center rounded-xl px-3 py-2 text-sm font-medium border">Resume</a>
+        <a href="https://www.linkedin.com/in/souveek-kurmi-a29552204" target="_blank" class="inline-flex items-center rounded-xl px-3 py-2 text-sm font-medium border">LinkedIn</a>
+      </div>
     </div>
   </header>
 
+  <!-- Hero -->
   <main id="home" class="max-w-5xl mx-auto px-5 pt-12 pb-16">
     <section class="grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <p class="text-xs uppercase tracking-widest text-slate-500">Backend Developer</p>
+        <p class="text-xs uppercase tracking-widest text-slate-500">Java • Spring Boot • SQL</p>
         <h1 class="mt-2 text-3xl sm:text-4xl font-extrabold leading-tight">
-          Hi, I’m Souveek — I build robust backend systems with <span class="text-blue-600">Java & Spring Boot</span>.
+          Hi, I’m Souveek — I build scalable, secure backend systems with <span class="text-blue-600">Java & Spring Boot</span>.
         </h1>
         <p class="mt-4 text-slate-600">
-          Sr. Associate at PwC India · Incoming EPGP (EMBA) candidate, IIM Kozhikode (2026–28).
+          Senior Associate at PwC India. 5+ years across enterprise-grade modules in metering, energy accounting, and payments for Government and Fortune 500 clients. Strong in REST APIs, Oracle, PL/SQL, performance tuning, and production support.
         </p>
         <div class="mt-6 flex gap-3">
-          <a href="#projects" class="inline-flex items-center rounded-xl bg-blue-600 px-4 py-2 text-white font-semibold">View Projects</a>
-          <a href="assets/Souveek_Kurmi_Resume.pdf" target="_blank" class="inline-flex items-center rounded-xl px-4 py-2 font-semibold border">Resume</a>
+          <a href="#projects" class="inline-flex items-center rounded-xl bg-blue-600 px-4 py-2 text-white font-semibold">See Projects</a>
+          <a href="#contact" class="inline-flex items-center rounded-xl px-4 py-2 font-semibold border">Contact</a>
         </div>
       </div>
-      <div class="rounded-3xl border shadow p-10 text-center">
+      <div class="rounded-3xl border shadow p-10 text-center bg-slate-50">
         <div class="text-6xl">{ }</div>
-        <p class="mt-3 text-sm text-slate-500">Clean APIs · Secure integrations · Oracle & MySQL · Thymeleaf</p>
+        <p class="mt-3 text-sm text-slate-500">Clean APIs · Secure Banking Integrations · Oracle & DB2 · Thymeleaf/JSP</p>
       </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="pt-12">
       <div class="flex items-end justify-between">
         <h2 class="text-2xl font-bold">Featured Projects</h2>
@@ -52,27 +61,86 @@
       <div id="projectGrid" class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
     </section>
 
-    <section id="about" class="pt-12">
-      <h2 class="text-2xl font-bold">About</h2>
-      <p class="mt-4 text-slate-700">
-        I’m a Java/Spring Boot developer focused on payment integrations, reporting, and performance.
-        I enjoy clean architecture, testing, and building production-ready systems.
-      </p>
+    <!-- Experience -->
+    <section id="experience" class="pt-12">
+      <h2 class="text-2xl font-bold">Experience</h2>
+      <ol class="mt-6 relative border-l border-slate-200">
+        <li class="mb-10 ml-4">
+          <div class="absolute -left-1.5 mt-1.5 w-3 h-3 bg-blue-600 rounded-full border border-white"></div>
+          <time class="mb-1 text-xs font-medium text-slate-500">Oct 2023 — Present · Kolkata</time>
+          <h3 class="text-lg font-semibold">Senior Associate · PwC India</h3>
+          <ul class="mt-2 text-slate-700 list-disc pl-5 space-y-2">
+            <li>Led development of 6 enterprise modules for GoI power client across 7+ states (metering, energy accounting, financial systems).</li>
+            <li>Built payment processing from scratch handling 10+ crore/month via secure banking APIs & API Gateway; implemented SSL, secure cookies, captcha, anti‑hijack measures.</li>
+            <li>Cut DB load by &gt;50% with Ehcache; improved response times for high‑frequency requests.</li>
+            <li>Coordinated SAT, Go‑Live, AMC across Assam & Manipur; drove UAT and L2/L3 support resolving 95% critical issues within SLA.</li>
+            <li>Stack: Java, Spring Boot, Oracle, PL/SQL, JDBC, REST, Thymeleaf/JSP/Servlets.</li>
+          </ul>
+        </li>
+        <li class="ml-4">
+          <div class="absolute -left-1.5 mt-1.5 w-3 h-3 bg-blue-600 rounded-full border border-white"></div>
+          <time class="mb-1 text-xs font-medium text-slate-500">Nov 2019 — Oct 2023 · Bhubaneswar</time>
+          <h3 class="text-lg font-semibold">Technology Analyst · Infosys Ltd.</h3>
+          <ul class="mt-2 text-slate-700 list-disc pl-5 space-y-2">
+            <li>Offshore lead for Java team; delivered solutions for a top US healthcare insurance client.</li>
+            <li>Owned 10 Java web apps, 26 REST/SOAP services, 7 batch jobs across Azure, WAS, and RHEL.</li>
+            <li>Resolved 50+ critical prod defects; implemented 20+ changes that eliminated 100% of logged tickets.</li>
+            <li>Scaled services to handle 2–3× load; led P1/P2/P3 incident bridges coordinating Cloud/DevOps/DBA.</li>
+          </ul>
+        </li>
+      </ol>
     </section>
 
+    <!-- Skills -->
+    <section id="skills" class="pt-12">
+      <h2 class="text-2xl font-bold">Skills</h2>
+      <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+        <div class="rounded-2xl border p-4">
+          <h3 class="font-semibold">Languages & Frameworks</h3>
+          <p class="mt-2 text-slate-700">Java, Spring Boot, Spring Core, JPA/Hibernate, Spring Security, Spring JDBC, Spring MVC, Thymeleaf, JSP/Servlet, SQL, PL/SQL, Python, C/C++, HTML/CSS/JS basics, Linux</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <h3 class="font-semibold">Tools</h3>
+          <p class="mt-2 text-slate-700">Azure DevOps, Splunk, Jenkins, Git, SOAP UI, Service-Now, OpenShift, Octopus Deploy, Urban Deploy, Microfocus Rumba, Postman, Tableau, Venafi</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <h3 class="font-semibold">Databases</h3>
+          <p class="mt-2 text-slate-700">Oracle, IBM DB2, MySQL</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="pt-12">
+      <h2 class="text-2xl font-bold">Awards & Honors</h2>
+      <ul class="mt-4 list-disc pl-5 text-slate-700 space-y-2">
+        <li>Above & Beyond Team Award — PwC India (2024)</li>
+        <li>Multiple Insta Awards — Infosys (2023)</li>
+        <li>RISE Unit Excellence Award — Infosys (2022)</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="pt-12">
+      <h2 class="text-2xl font-bold">Education</h2>
+      <p class="mt-4 text-slate-700">B.E., AMC Engineering College, Bangalore — 2019 (7.5 CGPA)</p>
+    </section>
+
+    <!-- Contact -->
     <section id="contact" class="pt-12">
       <h2 class="text-2xl font-bold">Contact</h2>
+      <div class="mt-2 text-sm text-slate-600">Email: <a class="underline" href="mailto:souveekkurmi@gmail.com">souveekkurmi@gmail.com</a> · Phone: 9353016165</div>
       <form action="https://formspree.io/f/your_form_id" method="POST" class="mt-4 grid gap-3 max-w-lg">
         <input name="name" placeholder="Your name" required class="rounded-xl border px-3 py-2">
         <input type="email" name="email" placeholder="Email" required class="rounded-xl border px-3 py-2">
         <textarea name="message" placeholder="Message" required class="rounded-xl border px-3 py-2"></textarea>
         <button type="submit" class="rounded-xl bg-blue-600 text-white px-4 py-2 font-semibold">Send</button>
       </form>
-      <p class="text-xs text-slate-500 mt-2">Replace the Formspree ID to receive submissions.</p>
+      <p class="text-xs text-slate-500 mt-2">Replace the Formspree ID above to receive messages.</p>
     </section>
   </main>
 
-  <footer class="border-t">
+  <footer class="border-t border-slate-200">
     <div class="max-w-5xl mx-auto px-5 py-8 text-sm text-slate-500">
       © <span id="y"></span> Souveek Kurmi · <a class="underline" href="https://github.com/">GitHub</a> · <a class="underline" href="https://www.linkedin.com/in/souveek-kurmi-a29552204">LinkedIn</a>
     </div>
