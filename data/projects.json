@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Real-time Payment Dispatch",
+    "stack": [
+      "Java",
+      "Spring Boot",
+      "Oracle",
+      "Thymeleaf"
+    ],
+    "desc": "Bank API integration with AES‑GCM + RSA, real-time status, and logs.",
+    "code": "https://github.com/you/payment-dispatch",
+    "demo": ""
+  },
+  {
+    "name": "Clinic Appointment System",
+    "stack": [
+      "Spring Boot",
+      "Thymeleaf",
+      "MySQL",
+      "Spring Security"
+    ],
+    "desc": "Role-based dashboards, slots, email confirmations, treatment billing.",
+    "code": "https://github.com/you/clinic-app",
+    "demo": ""
+  }
+]
